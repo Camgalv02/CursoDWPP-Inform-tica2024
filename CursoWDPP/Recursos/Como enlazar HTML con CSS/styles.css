@@ -1,0 +1,24 @@
+* {  /*Estilos iniciales para el navegador*/
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: tomato;
+    text-shadow: 1px;
+    margin: 20px;
+}
+
+.parrafo1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: blueviolet;
+text-align: center;
+}
+
+.parrafo2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: chartreuse;
+    text-align: center;
+}

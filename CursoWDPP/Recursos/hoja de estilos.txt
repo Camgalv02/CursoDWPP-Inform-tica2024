@@ -1,0 +1,76 @@
+/* Propiedades de Texto */
+color: #333; /* Define el color del texto */
+font-size: 16px; /* Tamaño de la fuente */
+font-family: Arial, sans-serif; /* Define la fuente del texto */
+font-weight: bold; /* Grosor del texto (normal, bold, 100, 200, etc.) */
+text-align: center; /* Alineación del texto (left, center, right, justify) */
+line-height: 1.5; /* Altura de la línea de texto */
+text-transform: uppercase; /* Cambia el caso del texto (uppercase, lowercase, capitalize) */
+letter-spacing: 1px; /* Espaciado entre caracteres */
+text-decoration: underline; /* Decoración del texto (none, underline, line-through, overline) */
+
+/* Propiedades de Fondo */
+background-color: #f8f8f8; /* Color de fondo */
+background-image: url('imagen.jpg'); /* Imagen de fondo */
+background-repeat: no-repeat; /* Controla si la imagen de fondo se repite */
+background-size: cover; /* Tamaño de la imagen de fondo (cover, contain, etc.) */
+background-position: center; /* Posición de la imagen de fondo */
+
+/* Propiedades de Bordes */
+border: 1px solid #ccc; /* Borde de un elemento (ancho, estilo, color) */
+border-radius: 10px; /* Bordes redondeados */
+box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* Sombra alrededor de un elemento */
+
+/* Propiedades de Espaciado */
+margin: 20px; /* Margen exterior del elemento (espacio fuera del borde) */
+margin-top: 10px; /* Margen superior */
+margin-right: 15px; /* Margen derecho */
+margin-bottom: 5px; /* Margen inferior */
+margin-left: 20px; /* Margen izquierdo */
+
+padding: 10px; /* Relleno interior del elemento (espacio dentro del borde) */
+padding-top: 5px; /* Relleno superior */
+padding-right: 8px; /* Relleno derecho */
+padding-bottom: 12px; /* Relleno inferior */
+padding-left: 16px; /* Relleno izquierdo */
+
+/* Propiedades de Dimensiones */
+width: 100%; /* Ancho del elemento */
+height: 200px; /* Altura del elemento */
+max-width: 1200px; /* Ancho máximo del elemento */
+min-height: 300px; /* Altura mínima del elemento */
+
+/* Propiedades de Posicionamiento */
+position: relative; /* Posicionamiento relativo del elemento */
+top: 10px; /* Distancia desde la parte superior */
+left: 20px; /* Distancia desde la parte izquierda */
+z-index: 10; /* Nivel de apilamiento (profundidad) del elemento */
+float: left; /* Posiciona el elemento a la izquierda (left, right, none) */
+clear: both; /* Evita que los elementos flotantes interfieran */
+
+/* Propiedades de Flexbox */
+display: flex; /* Activa el uso de flexbox */
+justify-content: center; /* Alineación horizontal (flex-start, flex-end, center, space-between) */
+align-items: center; /* Alineación vertical (flex-start, flex-end, center, stretch) */
+flex-direction: column; /* Dirección de los elementos flexibles (row, column, row-reverse, column-reverse) */
+flex-wrap: wrap; /* Permite que los elementos flexibles se envuelvan */
+
+/* Propiedades de Grid */
+display: grid; /* Activa el uso de grid */
+grid-template-columns: 1fr 1fr; /* Define columnas en un grid */
+grid-template-rows: auto; /* Define filas en un grid */
+grid-gap: 20px; /* Espacio entre elementos del grid */
+
+/* Propiedades de Transiciones */
+transition: all 0.3s ease-in-out; /* Define una transición suave para todos los cambios de estilo */
+
+/* Propiedades de Transformación */
+transform: scale(1.1); /* Escala el tamaño del elemento */
+transform: rotate(45deg); /* Rota el elemento */
+transform: translate(10px, 20px); /* Mueve el elemento en el eje X y Y */
+
+/* Propiedades de Visualización */
+display: block; /* Define cómo se muestra el elemento (block, inline, inline-block, none) */
+visibility: visible; /* Controla si el elemento es visible o no (visible, hidden) */
+opacity: 0.5; /* Define la opacidad del elemento (de 0 a 1) */
+overflow: hidden; /* Controla cómo se maneja el contenido desbordante (visible, hidden, scroll, auto) */
